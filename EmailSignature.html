@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head Section -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature</title>
+    <link rel="stylesheet" href="CSS/EmailSignature.css">
+</head>
+<!-- End of Head Section -->
+
+<!-- Body Section -->
+<body class="system">  
+    <div class="container">
+        <!-- Form Section -->
+        <div class="form">
+            <form id="signatureform">
+                <h1>Enter Your Data <br>Here<br></h1>
+                <h3>Enter the following information</h3>
+
+                <div class="information">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name"><br>
+
+                    <label for="designation">Designation</label><br>
+                    <input type="text" id="designation" name="designation"><br>
+
+                    <label for="facebooklink">Facebook Link</label>
+                    <input type="text" id="facebooklink" name="facebooklink"><br>
+                    
+                    
+                    <button id="submit-btn" type="submit">Generate</button>
+                </div>
+               
+            </form>
+        </div>
+        <!-- End of Form Section -->
+
+        <!-- Signature Preview Section -->
+        <div class="signature">
+            <div id="previewArea">
+                <script src="JavaScript/signature.js"></script>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
